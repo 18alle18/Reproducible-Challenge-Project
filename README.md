@@ -35,9 +35,15 @@ The code is written in Python using Jupyter Notebook with the following packages
 - keras
 - numpy
 - keras-tuner
+- shap
+- statsmodels
 
-All code is written in the notebook called Project_Alexander_Love.ipynb.
-The notebook is compiled one cell at a time, starting at the top, continuing downwards.
+## Files
+
+All code is found in the notebook called Project_Alexander_Love.ipynb.
+The notebook is can be run one cell at a time, starting at the top, continuing downwards.
+
+All data files used are in the "Data files" directory. The directory "Hyperparameter tuning" contains data from the process of tuning the hyperparameters of the neural network with Bayesian optimization. The trained neural network with the best hyperparameters found is saved as "optimized_model.keras".
 
 ## License
 This project is licensed under the MIT License – see the LICENSE file for details.
